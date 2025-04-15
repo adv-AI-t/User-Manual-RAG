@@ -24,7 +24,8 @@ if st.button("Submit"):
             vector_db = Chroma(
     embedding_function=OllamaEmbeddings(model="nomic-embed-text"),
     collection_name="bmw-rag",
-    persist_directory="../chroma_db_store",
+    persist_directory="../vector_store",
+    relevance_score_fn="MMR",
 )
 
             local_model = "llama3.2"
