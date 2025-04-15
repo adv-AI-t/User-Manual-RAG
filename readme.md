@@ -20,5 +20,5 @@ The **BMW X1 Assistant API** is a FastAPI-based application designed to provide 
 - **Backend**: [FastAPI](https://fastapi.tiangolo.com/)
 - **Frontend**: [Streamlit](https://streamlit.io/)
 - **Vector Database**: [Chroma](https://www.trychroma.com/)
-- **Language Model**: [Llama 3.2](https://www.llama.com)[LangChain Ollama](https://www.langchain.com/)
+- **Language Model**: [Llama 3.2](https://www.llama.com) [LangChain Ollama](https://www.langchain.com/)
 - **Embeddings**: `nomic-embed-text`
